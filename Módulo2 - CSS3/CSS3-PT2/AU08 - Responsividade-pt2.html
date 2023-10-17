@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+</head>
+<body>
+
+    <div></div>
+    
+</body>
+<style>
+    /* 
+        RESPONSIVIDADE - PT2. 
+
+            - ALL: PARA TODOS OS DISPOSITIVOS.
+            - BRAILLE: PARA DISPOSITIVOS TÁTEIS.
+            - EMBOSSED: PARA DISPOSITIVOS QUE IMPRIMEM EM BRAILLE.
+            - HANDHELD: PARA DISPOSITIVOS PORTÁTEIS, GERALMENTE COM TECLAS PEQUENAS LIMITADAS.
+            - PRINT: PARA IMPRESSÃO EM PAPEL.
+            - PROJECTION: PARA APRESENTAÇÕES COM PPS.
+            - SCREEN: PARA MONITORES OU DISPOSITIVOS COM TELAS COLORIDAS E RESOLUÇÃO ADEQUADA.
+            - SPEECH: PARA SINTETIZADORES DE VOZ. AS CSS 2 TEM UMA ESPECIFICAÇÃO DE CSS CHAMADA "AURAL", ONDE PODEMOS FORMATAR A VOZ DOS SINTETIZADORES.
+        
+        ORIENTAÇÃO
+            - PORTRAIT -> ALTURA MAIOR QUE A LARGURA.
+            - LANDSCAPE -> LARGURA MAIOR QUE ALTURA.     
+*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    div {
+        width: 500px;
+        height: 500px;
+        background-color: blue;
+    }
+
+    /* @media (max-width: 600px) {
+        div {
+            background: red;
+            width: 250px;
+            height: 250px;
+        }
+    } */
+
+
+    /* USA-SE PARA CRIAR CONDIÇÕES. */
+    /*             E                    */
+    @media screen and (max-width: 600px) {
+        div {
+            background: red;
+            width: 250px;
+            height: 250px;
+        }
+    }
+
+    /* MODO IMPRIMIR.
+    /*   IMPRESSÃO                      */
+    /* @media print and (max-width: 600px) {
+        div {
+            background: red;
+            width: 250px;
+            height: 250px;
+        }
+    } */
+
+    /* COLOCANDO CONDIÇÕES. TEM QUE SER MENOS DE 600PX E A TELA DEITADA. */
+    /* @media screen and (max-width: 600px) and (orientation: landscape) {
+        div {
+            background: red;
+            width: 250px;
+            height: 250px;            
+        }
+    }  */
+
+</style>
+</html>

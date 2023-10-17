@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classses</title>
+</head>
+<body>
+
+    <ul>
+        <li>PRIMEIRO</li>
+        <li>SEGUNDO</li>
+        <li>TERCEIRO</li>
+        <li>QUARTO</li>
+        <li>QUINTO</li>
+        <li>SEXTO</li>
+        <li>SÉTIMO</li>
+    </ul>
+    <br>
+    <br>
+    <ul class="ul">
+        <li>PRIMEIRO</li>
+        <li>SEGUNDO</li>
+        <li>TERCEIRO</li>
+        <li>QUARTO</li>
+        <li>QUINTO</li>
+        <li>SEXTO</li>
+        <li>SÉTIMO</li>
+    </ul>
+    <br>
+    <br>
+    <div>
+        <span>Olá</span>
+        <span>Hey</span>
+        <p>How</p>
+        <p>Let's Go</p>
+    </div>
+    <br>
+    <br>
+    <div class="div">
+        <span>Olá</span>
+        <span>Hey</span>
+        <p>How</p>
+        <p>Let's Go</p>
+    </div>
+    <br>
+    <br>
+
+    
+</body>
+<style>
+    /*
+
+        - :FIRST-CHILD -> PRIMEIRO FILHO / EX: PRIMEIRA LI DE UMA UL / PRIMEIRO SPAN DE UMA DIV.
+    - :FIRST-OF-TYPE -> PRIMEIRO ELEMENTO DE SEU TIPO ENTRE OS FILHOS DE SEU ELEMENTO PAI.
+    - :LAST-CHILD -> ULTIMO FILHO.
+    - :LAST-OF-TYPE -> ÚLTIMO ELEMENTO DO SEU TIPO ENTRE OS FILHOS DE SEU ELEMENTO PAI.
+    - :NOT() -> ESTILIZA OS ELEMENTOS, EXCETO O QUE ESTÁ DENTRO ().
+    - :NTH-CHILD() -> SELECIONA O ELEMENTO BASEADO NA SUA POSIÇÃO. EX :NTH-CHILD(3).
+    - :NTH-LAST-CHILD() -> SELECIONA O ELEMENTO BASEADO NA SUA POSIÇÃO, CONTANTO DE TRÁS PARA FRENTE.
+
+    */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* PRIMEIRO FILHO DE CADA PAI. */
+    li:first-child {
+        color: red;
+    }
+
+    /* ULTIMO FILHO DE CADA PAI.*/
+    .ul li:last-child {
+        color: red;
+    }
+
+    /* PRIMEIRO SPAN QUE ENCONTRAR NO PAI.
+    span:first-of-type {
+        color: red;
+    } */
+
+    /* OU, O PRIMEIRO ELEMENTO DAQUELE TIPO POR EX: "P".
+    p:first-of-type {
+        color: red;
+    } */
+
+
+    /* ULTIMO ELEMENTO QUE ENCONTRAR NO PAI. */
+    div span:last-of-type {
+        color: red;
+    }
+
+    /* OU, ULTIMO ELEMENTO DESTE TIPO. */
+    div p:last-of-type {
+        color: red;
+    }
+
+    /* ESTILIZA TODO MUNDO EXCETO O "P". */
+    .div :not(p) {
+        color: red;
+    }
+
+
+    /* ESTILIZA O FILHO QUE VOCÊ QUISER COLOCANDO DENTRO DAS () / FRENTE PARA TRÁS.
+    div :nth-child(1) {
+        color: red;
+    } */
+
+    /* ESTILIZA O FILHO QUE VOCÊ QUISER, MAS DE TRÁS PARA FRENTE.
+    div :nth-last-child() {
+        color: red;
+    } */
+
+</style>
+</html>

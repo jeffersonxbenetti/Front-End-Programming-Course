@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position's</title>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho"></div>
+    </div>    
+    <div class="neta"></div>
+</body>
+<style>
+    /* 
+        VAMOS FALAR DE POSITION
+        
+            - POSITION: "STATIC" (PADRÃO) - NÃO ACEITA      VALORES DE TOP, BOTTOM, RIGHT E LEFT.
+            - POSITION: "FIXED" - FIXA O ELEMENTO NA TELA.
+            - POSITION: "STICKY" - AGE COMO UM ADESIVO, FIXA O ELEMENTO SÓ ONDE EU DETERMINO.
+            - POSITION: "RELATIVE" - POSIÇÃO RELATIVA A POSIÇÃO INÍCIAL DELE.
+            - POSITION: "ABSOLUTE" - POSIÇÃO ABSOLUTA(FIXA), À ALGUM ELEMENTO OU PÁGINA.
+                -SE NÃO TIVER PAI / PAI FOR STATIC -> POSICIONA REFERENTE A PAGÍNA.
+                -SE O PAI NÃO FOR STATIC -> POSICIONA AO PAI.
+
+            PROPRIEDADES:
+                - TOP.
+                - BOTTOM.
+                - RIGHT.
+                - LEFT.
+
+            */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 200vw;
+        height: 200vh;
+    }
+
+    .pai {
+        width: 350px;
+        height: 350px;
+        background-color: #ff1396;
+    }
+
+    .filho {
+        width: 150px;
+        height: 150px;
+        background-color: #ffff00;
+    }
+
+    .neta {
+        width: 100px;
+        height: 100px;
+        background-color: #ff0000;
+    }
+
+</style>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elementos</title>
+</head>
+<body>
+
+    <input type="text" placeholder="digite aqui">  
+    
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veniam, repellendus maxime hic, velit tempore sequi accusamus rerum fugit unde soluta at labore voluptatum blanditiis necessitatibus! Ratione neque beatae magnam.</p>
+
+    <a href="">Boladão</a>
+
+</body>
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    input {
+        border: 1 px solid red; 
+        color: blue;
+    }
+
+    /* PARA TROCAR O :placeholder */
+    input::placeholder {
+        color: #ff1396;
+    }
+
+    p {
+        color: blue;
+    }
+
+    /* PARA MUDAR A COR DA PRIMEIRA LETRA.
+    p::first-letter{
+        color: red;
+    } */
+
+    /* PARA MUDAR A COR DA LINHA.
+    p::first-line {
+        color: red;
+    } */
+
+    a {
+        color: blue;
+    }
+
+    /* AFTER -> ANTES. */
+    a::after{
+        content: ">>>";
+    }
+
+    /* BEFORE -> DEPOIS. */
+    a::before{
+        content: "<<<";
+    }
+
+
+
+</style>
+</html>

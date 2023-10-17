@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+</head>
+<body>
+
+    <a href="">Meu link boladão</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, deserunt ullam? Hic ipsa aliquam ea velit consequuntur earum repudiandae, dolore inventore ex? Laudantium ut nobis ratione optio voluptatum eaque molestiae.</p>
+
+    <input type="checkbox">
+    <br>
+    <input class="input" type="checkbox" disabled>
+    <br>
+    <input class="input-1" type="text">
+    <br>
+    <input class="input-2" value="Somente leitura!">
+    <br>
+    <div class="box">Minha div</div>
+        
+</body>
+<style>
+
+    /* 
+        PSEUDO CLASSES
+
+    - :ACTIVE -> QUANDO O ELEMENTO ESTÁ ATIVO, OU SEJA, ESTÁ PRESSIONADO.
+    - :VISITED -> SELECIONA O LINK QUE FOI VISITADO.
+    - :HOVER -> QUANDO O MOUSE PASSAR EM CIMA DO ELEMNTO.
+    - :CHECKED -> USADO EM RADIO / CHECKBOX / SELECT.
+    - :DISABLED -> ELEMENTO DESABILITADO / BUTTON / INPUT.
+    - :ENABLED -> ELEMENTO ESTÁ HABILITADO.
+    - :FOCUS -> É APLICADO QUANDO UM ELEMENTO RECEBE FOCO, O QUE PODE OCORRER QUANDO O USUÁRIO SELECIONA O ELEMENTO.
+    - : READ-ONLY -> SELECIONA INPUT OU TEXTAREA QUE SÃO APENAS LEITURAS.
+    - :EMPTY -> ELEMENTO QUE NÃO TEM FILHO.    
+        
+*/
+
+a:active {
+    /* MUDA A COR QUANDO É PRESSIONADO. */
+    color: red;
+}
+
+a:visited {
+    /* QUANDO O ELEMENTO FOR VISITADO. */
+    color: #FF1396;
+}
+
+p:hover {
+    /* TODA VEZ QUE O MOUSE PASSAR EM CIMA DO ELEMENTO, IRÁ MUDAR DE COR. */
+    color: red;
+}
+
+input:checked {
+    /* ELE MUDA O ELEMENTO QUANDO FOR CLICADO. */
+    width: 100px;
+    height: 100px;
+}
+
+.input:disabled {
+    /* ELEMENTO QUANDO ESTÁ DESABILITADO. */
+    width: 50px;
+    height: 50px;
+}
+
+.input-1:focus {
+    /* QUANDO O ELEMENTO ESTÁ FOCADO. */
+    border: 2px solid red;
+    outline: none;
+}
+
+.input-2:read-only {
+    /* SOMENTE LEITURA. */
+    border: 2px solid blue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box:empty {
+    /* CASO A DIV ESTEJÁ VAZIA ELA FICARÁ NESSA COR AZUL. */
+    background: blue;
+}
+
+</style>
+</html>
