@@ -1,0 +1,117 @@
+<!--
+    INPUT - PARTE 2
+
+    DENTRO DA TAG IMPUT PODEMOS USAR UM PARAMETRO CHAMADO "TYPE". NO PARAMETRO TYPE TEMOS OUTROS PARAMETROS,
+    ESSES PARAMENTROS INDICAM O QUE SERÁ O NOSSO INPUT.
+        EXEMPLO: 
+            COLOR => TEREMOS UM INPUT DE CORES.
+            RANGE => INPUT DE "VOLUME".
+                DENTRO DESSE INPUT PODEMOS COLOCAR ALGUNS VALORES:
+                    MIN => MINIMO.
+                    MAX => MAXIMO.
+                    VALUE => AONDE ELE COMEÇARÁ.
+            PASSWORD => INPUT TIPO SENHA, ELE ESCONDE O QUE ESTÁ ESCREVENDO.
+            E-MAIL => SÓ PODE COLOCAR E-MAIL.
+            CHECKBOX => PARA MARCAR UM "OK".
+            FILE => ELE SERVE PARA BAIXAR O ARQUIVO.
+                DENTRO DESSE INPUT PODEMOS COLOCAR ALGUNS PARAMETROS:
+                    MULTIPLE => PARA FAZER UPLOAD DE MULTIPLOS ARQUIVOS.
+                    ACCEPT => ESCOLHE O FORMATO DE ARQUIVO QUE VOCE QUISER.
+                            COLOCANDO DENTRO DAS ASPAS DUBLA O VALOR:
+                                VIDEO/* => FAZ UPLOAD DE QUALQUER VIDEO.
+                                IMG/* => QUALQUER IMAGEM.
+                                AUDIO/* => QUALQUER AUDIO.
+            NUMBER => SÓ PERMITE NÚMEROS.             
+            TEXT => SÓ PERMITE TEXTOS.
+            DATA => SÓ PERMITE DATAS.       
+            RADIO => PARA SELECIONAR.           
+-->
+
+<!--INPUT DO TIPO COLOR-->
+<label>
+    color
+<input type="color">
+</label>
+<br>
+<br>
+<!--INPUT DO TIPO RANGE COM OS VALORES MIN. MAX E VALUE-->
+<label>
+    range
+<input type="range" min="" max="" value="">
+</label>
+<br>
+<br>
+<!--INPUT DO TIPO SENHA-->
+<label>
+    password
+<input type="password">
+</label>
+<br>
+<br>
+<!--INPUT DO TIPO E-MAIL-->
+<label>
+    e-mail
+<input type="email">
+</label>
+<br>
+<br>
+<!--INPUT DO TIPO CHECKBOX-->
+<label>
+    checkbox
+<input type="checkbox">
+</label>
+<br>
+<br>
+<!--INPUT DO TIPO FILE-->
+<label>
+    file
+<input type="file" multiple accept="">
+</label>
+<br>
+<br>
+<!--INPUT DO TIPO NUMBER-->
+<label>
+    number
+<input type="number">
+</label>
+<br>
+<br>
+<!--INPUT DO TIPO TEXT-->
+<label>
+    text
+<input type="text">
+</label>
+<br>
+<br>
+<!--INPUT DO TIPO DATA-->
+<label>
+    date
+<input type="date">
+</label>
+<br>
+<br>
+<!--INPUT DO TIPO RADIO-->
+<label>
+    radio
+<input type="radio">
+</label>
+<br>
+<br>
+<!--EXEMPLO DE INPUT RADIO COM MAIS DE UMA ESCOLHA
+        NESSE EXEMPLO, O VALOR "NAME" É O MESMO, POR ISSO PODEMOS ESCOLHER UM POR VEZ.
+        SE O VALOR "NAME" FOR DIFERENTE NÃO SERAM MAIS INTERLIGADOS, ASSIM PODERÁ TICAR TODOS DE UMA VEZ.
+-->
+<label for="facebook">
+    facebook
+    <input type="radio" id="facebook" name="redes-sociais">
+</label>
+
+<label for="instagram">
+    instagram
+    <input type="radio" id="instagram" name="redes-sociais">
+</label>
+
+<label for="youtube">
+    youtube
+    <input type="radio" id="youtube" name="redes-sociais">
+</label>

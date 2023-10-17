@@ -1,0 +1,46 @@
+<!--
+    FORMULARIO
+    - CAPTURAR DADOS DE ENTRADA
+    - INPUT => ENTRADA
+
+    ACTION => DEFINE PARA QUAL "URL" SERÁ ENVIADA OS DADOS, ELE VAZIO ENVIA PARA MESMA "URL" METHOD.
+    - GET => ELE ENVIA AS INFORMAÇÕES PELA "URL"
+    - POST => ELE ENVIA OS DADOS DE UMA FORMA INVISÍVEL.
+
+    - TAG FORMULARIO:
+        <FORM></FORM> => PARA CRIAR UM FORMULARIO.
+
+    - COISAS IMPORTANTES QUE TEM QUE TER DENTRO DO FORMULARIO.
+        - UMA LABEL COM INPUT.
+        - BOTÃO COM "TYPE" SUBMIT => PARA ENVIAR OS DADOS
+        - BOTÃO COM "TYPE" RESET => PARA EXCLUIR/RESETAR TODOS OS CAMPOS.
+            ESSE BOTÃO É OPCIONAL.
+        -ACTION => PARA ONDE SERÁ ENVIADO OS DADOS.
+        
+    - CASO VOCÊ QUEIRA COLOCAR UM INPUT "TYPE" FALI, VOCÊ TEM QUE AVISAR O SERVIDOR QUE NO SEU FORMULARIO
+    ESTÁ INDO UM ARQUIVO.
+        - PARA ISSO DENTRO DA TAG "FORM" DE ABERTURA VOCÊ TEM QUE COLOCAR:
+            - ENCTYPE="MULTIPART/FORM-DATA".
+-->
+
+<!--EXEMPLO DE FORMULARIO-->
+<form action="" method="" enctype="multipart/form-data">
+    <h1>digite o seu endereço:</h1>
+    <label>
+        Rua
+        <input type="text" name="rua" autocomplete="street-address">
+    </label>
+
+    <label>
+        Número
+        <input type="number" name="numero" autocomplete="on">
+    </label>
+    
+    <label>
+        E-mail
+        <input type="email" name="email" autocomplete="email">
+    </label>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Resetar</button>
+</form>
