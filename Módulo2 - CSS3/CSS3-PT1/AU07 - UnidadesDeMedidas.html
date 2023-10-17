@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Unidades de Medidas</title>
+</head>
+<body class="vo">
+
+    <div class="pai">
+        SOU PAI
+       <div class="filho"> SOU FILHO</div>
+    </div>
+    
+</body>
+
+<style>
+    /*
+                                            UNIDADES DE MEDIDAS
+        
+        -> ABSOLUTAS
+            - PX (PIXELS).
+            - IN (INCHES/POLEGADAS).
+            - CM (MM (CENTIMETRO / MILÍMETRO).
+
+
+        -> RELATIVAS 
+            - % CALCULA O TAMANHO RELATIVO AO ELEMNTO PAI.
+            - VW (VIEW WIDTH) 1VW É 1% DA LARGURA DA JANELA DO NAVEGADOR.
+            - VH (VIEW HEIGHT) 1VW É 1% DA ALTURA DA JANELA DO NAVEGADOR.
+            - EM (EMPHEMERAL UNIT) É UMA UNIDADE RELATIVA AO ELEMNTO PAI
+            - REM (ROOT ENPHEMERAL UNIT) É UMA UNIDADE RELATIVA AO ELEMNTO RAIZ.
+
+*/
+
+/*.vo {
+
+}
+
+.pai {
+    font-size: 100px;    // PEGANDO REFERENCIA DO PAI
+    height: 20px;
+}
+
+.filho {
+    font-size: 50%;
+}
+*/
+
+/*.vo { 
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.pai {
+    background-color: red;
+    width: 50%;            // PEGANDO REFERENCIA DO VO
+    height: 50%;
+}    
+
+.filho {
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
+*/
+
+.vo {
+    font-size: 16px;
+}
+
+.pai {
+    background-color: red;
+    width: 50%;
+    height: 50%;            
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.filho {
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    color: #ffffff;   
+    font-size: 2em;
+}
+
+/* NA UNIDADE REM SEMPRE VAI BUSCAR O ELEMENTO MAIS EM CIMA, NO CASO PEGARÁ DO VO */
+</style>
+
+</html>

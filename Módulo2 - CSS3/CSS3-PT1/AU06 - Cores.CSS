@@ -1,0 +1,36 @@
+/*
+                                                    CORES
+
+
+        - HEXADECIMAL => * RED * GREEN * BLUE
+
+            - O código Hexadecimal para cores consiste em seis letras ou números precedidos do “#” e seus números significam: Os dois primeiros elementos representam a intensidade de vermelho; O terceiro e quarto elementos representam a intensidade de verde; Os dois últimos a intensidade de azul.
+
+            - Decimal (10) => 1,2,3,4,5,6,7,8,9
+            - Hexadecimal (16) => 0,1,2,3,4,5,6,7,8,9,C,D,E,F.
+
+
+        - RGB => * RED * GREEN * BLUE
+
+            - A sigla RGB significa as iniciais das cores em inglês red, green e blue (vermelho, verde e azul). O sistema de cores RGB é encontrado em monitores de computador, televisão, câmeras digitais entre outros. As cores são atingidas com a mistura das três cores primárias em um número definido numa escala de 0 a 255.
+
+        - RGBA => * RED * GREEN * BLUE * ALFA 
+
+            - A função RGBA retorna uma cor com base nos componentes vermelho, verde e azul. A função também inclui um canal alfa para misturar cores de controles que estão em camadas na frente um do outro.
+
+
+
+*/
+
+body {
+    background-color: #ff00ff;
+}
+
+body {
+    background-color: rgb(red, green, blue);
+}
+
+body {
+    background-color: rgba(red, green, blue, alpha);
+}
+
