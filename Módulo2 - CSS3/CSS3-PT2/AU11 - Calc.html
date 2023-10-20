@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+</head>
+<body>
+
+    <div class="pai">
+        <div class="filha">
+            <div class="neta"></div>
+        </div>
+    </div>
+    
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        background: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pai {
+        height: calc(100% - 100px);
+        width: calc(100% - 100px);
+        background: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .filha {
+        width: calc(100% - 100px);
+        height: calc(100% - 100px);
+        background: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .neta {
+        width: calc(100% - 100px);
+        height: calc(100% - 100px);
+        background: green;
+    }
+
+
+</style>
+</html>

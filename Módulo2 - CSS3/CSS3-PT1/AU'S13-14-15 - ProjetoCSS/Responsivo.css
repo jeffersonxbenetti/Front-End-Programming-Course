@@ -1,0 +1,48 @@
+@media (max-width: 600px) {
+
+    header {
+        margin: 0;
+        display: none;
+    }
+    
+    .logo {
+        margin: 0;
+        display: block;
+        width: 354px;
+        height: 317px;        
+        margin: 149px auto 0;
+    }
+
+    .box {
+        display: block;
+        width: auto;
+    }
+
+    .box h1 {
+        text-align: center; margin: auto;
+        display: block;
+        font-size: 50px;   
+        display: block;
+        margin-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box h2 {
+        text-align: center;
+        font-size: 30px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .box p {
+        display: none;
+    }
+
+    .button-explore {
+        display: block;
+        margin-top: 17px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

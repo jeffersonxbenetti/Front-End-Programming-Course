@@ -1,0 +1,52 @@
+@media (max-width: 900px) {
+
+    .box-left {
+        margin: 0;
+        display: block;
+        width: 100vw;
+        height: auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 36px;
+        line-height: 52px;
+        width: 268px;
+        margin: 58px auto 0 auto;
+    }
+
+    p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        width: 296px;
+        margin: 15px auto;
+    }
+
+    button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 58px;
+    }
+
+    .box-rigth {
+        display: block;
+        position: static;
+        width: 100vh;
+        height: 50%;
+    }
+
+    header {
+        margin: 0;
+        display: none;
+    }
+    
+    img {
+        position: static;
+        width: 271px;
+        height: 322px;
+        margin: 46px 52px;        
+    }
+
+}

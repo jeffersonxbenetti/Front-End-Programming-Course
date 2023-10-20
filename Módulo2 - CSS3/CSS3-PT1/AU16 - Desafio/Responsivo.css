@@ -1,0 +1,56 @@
+@media (max-width: 1330px) {
+    header {
+        margin: 0;
+    }
+
+    .link-header {
+        margin: 0;
+        display: none;
+    }
+
+    .button-sign {
+        width: 91px;
+        height: 31px;
+        position: absolute;
+        top: 17px;
+        right: 15px;
+    }
+
+    .logo {
+        margin: 0;
+        width: 312px;
+        height: 288px;
+        display: block;
+        position: absolute;
+        top: 507px;
+        left: 39px;
+    }
+
+    section {
+        display: block;
+        margin: 0;
+    }
+
+    h1 {
+        width: 278px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: 124px auto 0;
+    }
+
+    p {
+        margin: 0;
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        margin: 20px auto;
+    }
+
+    .link-more {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+}
