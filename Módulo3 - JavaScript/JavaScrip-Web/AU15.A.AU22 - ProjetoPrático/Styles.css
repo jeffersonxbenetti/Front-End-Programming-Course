@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #8A51FC;
+}
+
+.logo {
+    height: 300px;    
+    margin: 10px auto;
+    display: block;
+}
+
+main {
+    width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    padding: 30px 23px 23px;
+    margin: 0 auto 48px;
+}
+
+label {
+    color: #777;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+select {
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    margin-bottom: 26px;
+    appearance: none;   
+    padding: 10px;
+}
+
+.input-value {
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    margin-bottom: 26px;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background: #772FD3;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section {
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+    padding: 10px;
+}
+
+.currency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.arrow {
+    margin: 10px 0;
+}
+
+.to-currency-name, .from-currency-name {
+    color: #777;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.to-currency-value, .from-currency-value{
+   color: #555;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 18px;
+}
