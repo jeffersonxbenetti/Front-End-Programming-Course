@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cron</title>
+</head>
+<body>
+    <h1>0</h1>
+    <button onclick="start()" class="start">Start</button>
+    <button onclick="stop()" class="stop">Stop</button>
+</body>
+<script>
+
+    let number = 0
+    let Cron
+    let h1 = document.querySelector('h1')
+
+    function start(){ // função de start
+
+        Cron = setInterval(function() {  // variável com o setInterval dentro.
+            number++ // função que esta dentro do setInterval para ir somando ++
+            h1.innerHTML = number // para colocar na tela.
+        }, 1000 ); // e o tempo para cada ação.
+    }
+
+    function stop(){
+        clearInterval(Cron) // usa-se para parar o setInterval, colocando a variavel dentro. Não esquecer de colocar o setInterval dentro de uma variável para saber qual irá pausar.
+    }
+
+</script>
+</html>
