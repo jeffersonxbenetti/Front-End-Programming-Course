@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio for</title>
+</head>
+<body>
+
+    <input placeholder="Digite o nome do contato..">
+    <p></p>
+    <button onclick="search()">Procurar Contato</button>
+    
+</body>
+<script>
+/*
+    - For of -> Estrutura de Repetição(Loop)
+        - Com for of, consegue interar item por intem.
+            - exemplo: 
+                - Dentro da "const nome", onde temos somente o valor "Jefferson".. o for of vai ir letra por letra.. 0-J, 1-e, 2-f e assim por diante.
+                - Já dentro da "const users" one temos os valores " João, Maria e Leticia".. o for of vai nome por nome.. 0-João, 1-Maria, 2-Leticia.
+        - O for of não precisa colocar uma condição para parar.
+
+        1 - {
+    
+    const myName = "Jefferson"
+    const users = ["João", "Maria", "leticia"]
+
+    for (const name of myName) {
+        console.log(name);
+    }
+
+    . Sintaxe do for of.
+    for (const iterator of object){}
+        CONST "INTERATOR" => Onde temos a "VARIÁVEL", aqui você coloca o nome do que você vai fazer,por exemplo: irei pegar letra por letra, então o nome dela será "pegarLetra"
+
+        OBJECT => Depois "of", você vai COLOCAR a "VARIÁVEL OU OBJETO(ARRAY)" que você irá explorar, mexer, interagir, no caso a variável "MYNAME"
+
+    for (const pegarLetra of myName){
+        console.log(pegarLetra);
+    }
+
+}
+
+ */
+
+    let p = document.querySelector("p")
+    let input = document.querySelector("input")
+
+    const contacts = [
+        {name: "Jefferson", number:"1170067070"},
+        {name: "Kathleen", number:"1170067070"},
+        {name: "Maria", number:"1170067070"},
+        {name: "Gabrielle", number:"1170067070"},
+        {name: "Lee Andrew", number:"1170067070"},
+        {name: "Joao", number:"1170067070"}
+    ]
+
+    //Usando o for of no Desafio.
+    function search(){
+
+        for (const contact of contacts) {
+
+            if(input.value.toLowerCase() === contact.name.toLowerCase()){
+                p.innerHTML = `Contato encontrado, Nome: ${contact.name}, Tel: ${contact.number}`
+            } else {
+                p.innerHTML = "Contato não encontrado, tente novamente."
+            }            
+        }
+    }
+
+</script>
