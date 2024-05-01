@@ -1,0 +1,13 @@
+/*
+    ALIGN CONTENT
+
+    Align Content é um pouco diferente do ALIGN ITEMS. O ALIGN ITEMS pega a area total e alinha, já o ALIGN CONTENT junta todo moundo e alinha depois.
+
+        - Stretch - 
+        - Flex-start - Junta os itens e alinha para o início.
+        - Flex-end - Junta os itens e alinha para o final.
+        - Center - Junta os itens e alinha no centro.
+        - Space-between - Junta os itens e da um espaço entre eles.
+        - Space-around - Junta todo mundo e da espaço utilizando a area.
+
+*/

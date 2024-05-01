@@ -1,0 +1,10 @@
+/*
+    FLEX SHRINK
+
+    O FLEX-GROW faz o item crescer dentro de um espaço, porém, o FLEX-SHRINK faz o item diminuir.
+
+    Tem como fazer o mesmo que o flexgrow, selecionar o item para diminuir mais que o outro.
+
+        - Flex-shrink: 2;
+
+*/

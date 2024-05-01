@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY FLEX</title>
+</head>
+<body>
+        <h1>FLEX DIRECTION</h1>
+
+        <p>O DISPLAY FLEX É UMA FERRAMENTA CSS QUE NÓS AUXILIA, NOS AJUDA A DISTRIBUIR ITENS DENTRO DE UM CONTAINER(CAIXA).</p>
+
+        <div class="container">
+            <div class="block">Block</div>
+            <div class="block">Block</div>
+            <div class="block">Block</div>
+            <div class="block">Block</div>
+            <div class="block">Block</div>
+        </div>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    p {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .container {
+        margin: 10px;
+        border: 1px solid red;
+        display: flex;
+    }
+
+    .block {
+        width: 100px;
+        height: 100px;
+        background: #cdd728;
+        border-radius: 5px;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+    }
+</style>
+</html>

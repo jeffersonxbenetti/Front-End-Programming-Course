@@ -1,0 +1,13 @@
+/*
+    ALIGN ITEMS
+
+    Ele também alinha os itens, mas no EIXO secundário. Ele tem 4 propriedades.
+    
+        - Strech - Ele estica os itens.
+            - Caso não tenha nenhum valor definido no height, o item ficará esticado.. ocupando todo o espaço.
+        - Flex-start - Ele  alinha itens no começo.
+        - Flex-end - Ele alinha o itens no fim.
+        - Center - Ele centraliza os itens.
+
+    Por padrão ele é STRETCH.
+*/ 

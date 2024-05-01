@@ -1,0 +1,20 @@
+/*
+    JUSTIFY CONTENT
+
+        Serve para justificar o conteúdo, por exemplo, o display flex trabalha com dois eixos.
+
+            - MAIN AXIS - Eixo príncipal.
+            - CROSS AXIS - Eixo Secundário.
+    
+        Quando é usado o FLEX DIRECTION como ROW, o seu EIXO princípal é o horizontal e o secundário é o
+        vertical. No caso do COLOMN, o seu EIXO princípal é o vertical e o secundário é o horizontal.
+
+        Por exemplo, o JUSTIFY CONTENT serve para alinhar os itens no EIXO princípal. Ele tem cinco propriedas.
+    
+            - Flex-Start - Alinha os itens no começo.
+            - Flex-End - Alinha os itens ao final.
+            - Center - Alinha os itens ao centro.
+            - Space-Between - Cria um espaço entre um item e o outro.
+            - Space-Around - Cria um espaço entre os itens.
+
+*/

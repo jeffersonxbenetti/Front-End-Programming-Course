@@ -1,0 +1,12 @@
+/*
+    FLEX GROW
+
+    Ele tem a capacidade de crescer os itens dentro de um espaço vago.
+
+    Tem a possibilidade de fazer um item crescer mais que o outro item.
+
+        - é só você selecionar o item que você quer que cresça mais que o outro e colocar o FLEX GROW, por exemplo com 2.
+
+            - Flex-grow: 2;
+    
+*/
