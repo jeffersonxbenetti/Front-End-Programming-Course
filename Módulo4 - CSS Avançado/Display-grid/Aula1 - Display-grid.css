@@ -1,33 +1,34 @@
 /*
     DISPLAY GRID
 
-    Por padrão, se eu nao coloco nada no item, como WIDTH ou HEIGHT, o display grid faz o item ocupar todo o espaço porque o item por padrão DISPLAY BLOCK.
+        - Por padrão, se eu nao coloco nada no item, como WIDTH ou HEIGHT, o display grid faz o item ocupar todo o espaço porque o item por padrão DISPLAY BLOCK.
 
-    Display template columns serve para criar colunas.
+        - Display template columns serve para criar colunas.
 
-    Podemos usar PIXEL:
-        - grid-template-columns: 100px 100px 100px;
-            - Usada para definir o tamanho da coluna.
+            - Podemos usar PIXEL:
+                - grid-template-columns: 100px 100px 100px;
+                    - Usada para definir o tamanho da coluna.
 
-    Podemos usar PORCENTAGEM:
-        - grid-template-columns: 20% 20% 20%;
-            - Usado para definir o tamanho pelo tamanho da tela.
-    
-    Podemos usar FR(fração):
-        - grid-template-columns: 1fr 1fr 1fr;
-            - Usado para definir o tamanho das três colunas igual.
+            - Podemos usar PORCENTAGEM:
+                - grid-template-columns: 20% 20% 20%;
+                    - Usado para definir o tamanho pelo tamanho da tela.
+            
+            - Podemos usar FR(fração):
+                - grid-template-columns: 1fr 1fr 1fr;
+                    - Usado para definir o tamanho das três colunas igual.
 
-    Podemos usar REPEAT:
-        - grid-template-columns: repeat(3, 1fr)
-            - Usado para definir em pouco código o tamanho das três colunas.
+            - Podemos usar REPEAT:
+                - grid-template-columns: repeat(3, 1fr)
+                    - Usado para definir em pouco código o tamanho das três colunas.
 
-    Podemos usar MINMAX:
-        - grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
-            - Usado para colocar o tamanho min e max da coluna.
+            - Podemos usar MINMAX:
+                - grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+                    - Usado para colocar o tamanho min e max da coluna.
 
-    Podemos também deixar no AUTOMATICO:
-        - grid-template-columns: repeat(auto-fit, minmax(100px, auto));
-            - Usado para automatizar o tamanho das colunas.
+            - Podemos também deixar no AUTOMATICO:
+                - grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+                    - Usado para automatizar o tamanho das colunas.
+                    
 */
 
 * { 

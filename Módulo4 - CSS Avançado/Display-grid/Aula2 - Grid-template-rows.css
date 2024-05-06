@@ -1,0 +1,34 @@
+/*
+    DISPLAY GRID.
+
+    - GRID TEMPLATE ROWS
+
+    - Como o GRID TEMPLATE COLOMNS que define as colunas o GRID TEMPLATE ROWS defini o tamanho da linha. Usamos as mesmas propriedades.
+
+    - Por padrão, se eu nao coloco nada no item, como WIDTH ou HEIGHT, o display grid faz o item ocupar todo o espaço porque o item por padrão DISPLAY BLOCK.
+
+        - Podemos usar PIXEL:
+            - grid-template-rows: 100px 100px 100px;
+                - Usada para definir o tamanho da linha.
+
+        - Podemos usar PORCENTAGEM:
+            - grid-template-rows: 20% 20% 20%;
+                - Usado para definir o tamanho pelo tamanho da tela.
+        
+        - Podemos usar FR(fração):
+            - grid-template-rows: 1fr 1fr 1fr;
+                - Usado para definir o tamanho das três linhas iguais.
+
+        - Podemos usar REPEAT:
+            - grid-template-rows: repeat(3, 1fr)
+                - Usado para definir em pouco código o tamanho das três linhas.
+
+        - Podemos usar MINMAX:
+            - grid-template-rows: minmax(200px, 1fr) 1fr 1fr;
+                - Usado para colocar o tamanho min e max da linha.
+
+        - Podemos também deixar no AUTOMATICO:
+            - grid-template-rows: repeat(auto-fit, minmax(100px, auto));
+                - Usado para automatizar o tamanho das linhas.
+
+*/

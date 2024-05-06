@@ -1,0 +1,16 @@
+/*
+    AGORA CONHECEREMOS PROPRIEDADES QUE SERAM APLICADAS NOS ITENS.
+
+        - GRID COLUMN
+            - O GRID COLUMN defini onde irá começar e terminar o item.
+                - colocando:
+                    - grid-column-start: 1;
+                        - Começa na linha 1.
+                    - grid-column-end: 3;
+                        - Termina na linha 3.
+
+            - Atalho.
+                - grid-column: 1/3.
+                    - Começa na linha 1 e termina na linha 3.
+
+*/

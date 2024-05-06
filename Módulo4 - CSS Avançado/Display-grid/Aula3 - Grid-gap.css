@@ -1,0 +1,19 @@
+/*
+    GRID GAP
+
+        - Dentro do GRID GAP existem o GRID-ROW-GAP e o GRID-COLUMN-GAP.
+            - GRID-ROW-GAP:
+                - Defini a distância das linhas para outra.
+            - GRID-COLUMN-GAP:
+                - Defini a distância das colunas para outra.
+    
+    - Temos o GRID-GAP que aplica quanto pra linha quanto pra coluna. Você pode fazer um atalho com ele para usar nas duas, por exemplo: 
+        - grid-gap: 10px 10px;
+            - O primeiro valor é para linha.
+            - Segundo valor para coluna.
+
+    - Atalho..
+        - Também podemos colocar um valor para ser aplicados em ambos, por exemplo:        
+            - grid-gap: 10px;
+    
+*/
