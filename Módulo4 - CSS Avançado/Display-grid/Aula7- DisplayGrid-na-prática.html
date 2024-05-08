@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY GRID NA PRÁTICA</title>
+</head>
+<body>
+    <div class="container">
+        <header class="space">HEADER</header>
+        <main class="space">MAIN</main>
+        <aside class="space">ASIDE</aside>
+        <footer class="space">FOOTER</footer>
+        <nav class="space">NAV</nav>
+    </div>
+</body>
+<style>
+/*
+    - DISPLAY GRID NA PRÁTICA.
+        - Projeto na prática para entender o conceito do display grid.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    display: grid;
+
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+
+}
+
+.space {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+header {
+    background-color: #333453;
+    grid-column: 1/4;
+}
+
+main {
+    background-color: #259b11;
+    grid-column: 2/3;
+}
+
+aside {
+    background-color: #800534;
+}
+
+footer {
+    background-color: #0000ff;
+    grid-column: 1/4;
+}
+
+nav {
+    background-color: rgb(34, 34, 1);
+    grid-row: 2/3;
+}
+</style>
+</html>
