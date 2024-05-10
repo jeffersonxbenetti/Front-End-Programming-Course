@@ -1,13 +1,13 @@
 /*
-    FLEX WRAP
+    - FLEX WRAP.
 
-        Flex Diretion tem três propriedades.
+        - Flex Diretion tem três propriedades.
         
             - Nowrap - Ele não vai efetuar mais quebra de linha.
             - Wrap - Ele vai ter quebra de linha.
             - Wrap-reverse - Coloca o item do mesmo jeito, mas ao contrário.
         
 
-        Por padrão, ele já começa como NOWRAP - Ele não vai efetuar uma quebra de linha.
+        - Por padrão, ele já começa como NOWRAP - Ele não vai efetuar uma quebra de linha.
 
 */

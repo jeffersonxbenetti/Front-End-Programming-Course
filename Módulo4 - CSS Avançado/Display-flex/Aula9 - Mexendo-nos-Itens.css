@@ -1,11 +1,11 @@
 /*
-    FLEX BASIS
+    - FLEX BASIS.
 
-    Até agora aprendemos como mexer no container, agora iremos aprender a como mexer no itens. No caso, os BLOCK(texto dentro do container).
+    - Até agora aprendemos como mexer no container, agora iremos aprender a como mexer no itens. No caso, os BLOCK(texto dentro do container).
 
-    FLEX BASIS, ele delimita o tamanho dos meus itens.
+        - FLEX BASIS, ele delimita o tamanho dos meus itens.
 
-    Se você tem um item que não tem o valor de tamanho nele, colocando o FLEX BASIS o container irá ficar do tamanho do item dentro do container.
+    - Se você tem um item que não tem o valor de tamanho nele, colocando o FLEX BASIS o container irá ficar do tamanho do item dentro do container.
     
-    - Flex-basis: 300px;
+        - Flex-basis: 300px;
 */

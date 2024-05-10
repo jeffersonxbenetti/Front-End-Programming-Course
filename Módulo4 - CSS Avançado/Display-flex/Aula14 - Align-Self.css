@@ -1,9 +1,9 @@
 /*
-    ALIGN SELF
+    - ALIGN SELF.
 
-    Ele é parecido com ALIGN ITENS, a diferença que ele só vai mexer/alinhar só um item.
+        - Ele é parecido com ALIGN ITENS, a diferença que ele só vai mexer/alinhar só um item.
 
-    Por exemplo, eu tenho um container com cinco itens alinhado ao centro da página. Porém, quero que o item do meio nao fique ali, mas sim alinha ao topo. Então eu seleciono o item do meio e coloco a propriedade ALIGN-SELF.
+    - Por exemplo, eu tenho um container com cinco itens alinhado ao centro da página. Porém, quero que o item do meio nao fique ali, mas sim alinha ao topo. Então eu seleciono o item do meio e coloco a propriedade ALIGN-SELF.
 
         - Align-self: flex-start; - Ele íra deixar o item alinhado ao topo. 
 */

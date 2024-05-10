@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALINHAMENTO DO CONTAINER</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="one space">1</div>
+        <div class="two space">2</div>
+        <div class="tree space">3</div>
+        <div class="four space">4</div>
+        <div class="five space">5</div>
+        <div class="six space">6</div>
+        <div class="seven space">7</div>
+        <div class="eight space">8</div>
+        <div class="nine space">9</div>
+    </div>
+    
+</body>
+<style>
+    /*
+        - PROPRIEDADES PARA ALINHAMENTO DO CONTAINER.
+
+            - Justify-contet -> Alinha o container na horizontal.
+            - Align-content -> Alinha o container na vertical.
+            - Justify-items -> Alinha os itens na horizontal.
+            - Align-items -> Alinha os items na vertical.
+    */
+    
+    * { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    display: grid;
+
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+
+    /* justify-content: center;
+    align-content: center;
+    
+    justify-items: center;
+    align-items: center; */
+}
+
+.space {
+    color: #fff;
+    font-size: 38px;
+}
+
+.one {
+    background: #333453;
+}
+
+.two {
+    background: #259b11;
+}
+
+.tree {
+    background: #800534;
+}
+
+.four {
+    background: #0c8f9b;
+}
+
+.five {
+    background: #ff0a0a;
+}
+
+.six {
+    background: #7c6161;
+}
+
+.seven {
+    background: #0f0cd4;
+}
+
+.eight {
+    background-color: #b61e95;
+}
+
+.nine {
+    background: #a7b80d;
+}
+</style>
+</html>

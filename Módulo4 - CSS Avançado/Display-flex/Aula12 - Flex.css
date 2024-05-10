@@ -1,13 +1,13 @@
 /*
-    FLEX
+    - FLEX.
 
-    É um atalho para o FLEX-BASIS, FLEX-GROW e FLEXSHRINK.
+        - É um atalho para o FLEX-BASIS, FLEX-GROW e FLEXSHRINK.
 
-    Por exemplo:
-        - Primeiro valor - Flex basis.
-        - Segundo Valor - Flex grow.
-        - Terceiro valor - Flex shrink.
+            - Por exemplo:
+                - Primeiro valor - Flex basis.
+                - Segundo Valor - Flex grow.
+                - Terceiro valor - Flex shrink.
 
-        Flex: 100px 1 1;
+                    - Flex: 100px 1 1;
         
 */
