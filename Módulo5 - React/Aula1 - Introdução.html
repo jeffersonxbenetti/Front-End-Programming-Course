@@ -8,16 +8,69 @@
 <body>
     <h1>INTRODUÇÃO</h1>
 
+    <h2>O QUE É <span>REACT</span></h2>
+
     <p><b>React</b> é uma biblioteca Javascript para criação de interfaces para usuário.</p>
     <p>A princípal função do React é organizar o conteúdo que será mostrado ao usuário.</p>
     <p>Mesmo podendo ser usado de outras formas(veremos mais adiante), o princípal uso do React em dia é para criar sites, ou interfaces web.</p>
     <p>O React é uma das princípais ferramentas do mercado para criação de SPA's. SPA's(Single Page Application) são aplicações web(sites) que tem como objetivo trazer uma experiência similar a de um programa de computador para o usuário(sem os reloads e etc comuns aos sites).</p>
 
-    <h2>HISTÓRIA DO REACT</h2>
+    <h2>HISTÓRIA DO <Span>REACT</Span></h2>
 
     <p>Essa biblioteca <u>surgiu em 2011</u>, no facebook, e passou a ser utilizada na interface do mural de notícias da rede social.</p>
     <p>No ano seguinte, passou a integrar também a área de tecnologia do instagram e de várias outras ferramentas da empresa.</p>
     <p>O react tem sido usado por grandes companhias ao redor do mundo.</p>
     <p>Algumas delas: Netflix, Airbnb, American Express, Facebook, Whatsapp, Ebay, Instagram, Globo, Hotmart, Ifood, dentre outras..</p>
+
+    <h2>COMO FUNCIONA O <Span>REACT</Span></h2>
+
+    <p>Para entender como REACT funciona é preciso conhecer a estrutura de uma página HTML e de que formas ela é manipulada. A página HTML é formada por uma série de tags que representam cada elemento de um conteúdo. Já o DOM(Document Object Model), é uma representação estruturada de todos os elementodo da página e é utilizado para facilitar as alterações nesses elemento</p>
+    <p>O REACT cria uma Dom virtual para permitir a manipulação dos elementos da página. Basicamente, ele realiza uma cópia do DOM em memória, faz as alterações necessárias conforme a determinação das instruções programadas e atualiza o navegador de forma inteligente. Esse processo oferece mais agilidade na manipulação das páginas.</p>
+
+    <h2><Span>JSX</Span> REACT</h2>
+
+    <p>A sintaxe utilizada pelo REACT é chamada <b>JSX</b>, que significa Javascript Syntax Extension. Trata-se de uma extensão para o Javascript, ou seja, oferece algumas funcionalidades a mais e permite escrever de forma simples Javascript e HTML no mesmo código.</p>
+
+    <!-- TUDO QUE ESTIVER AQUI DENTRO É CÓDIGO REACT. -->
+        
+    <div>
+        import React from "react";
+
+    <span>function</span> Mycomponent() {
+
+        const message = "Hello world";
+
+        const paragraph = "É chamado JSX e é extnsão para Javascript. Recomendamos usar JSX com o React para descrever como a UI deveria parecer. JSX pode lembrar uma linguagem de template, mas que vem com todo o poder do Javascript, JSX produz elementos do React."
+
+        <span>return</span> (
+            <div>
+                <h1>{message}</h1>
+                <p>{paragraph}</p>
+            </div>
+        );
+    }
+    </div>    
+
+    <h2>REACT <span>X</span> REACT NATIVE.</h2>
+
+    <p>REACT NATIVE e REACTJS são a mesma coisa? Ambos possuem princípios estruturais, maas não idênticos.</p>
+    <p>O objetivo do REACT NATIVE é permitir a construção de interfaces de aplicativos para celulares, enquanto o foco do REACT.JS são interfaces web (sites).</p>
+    <p>O REACT NATIVE é uma biblioteca do REACT.JS, adaptada para construir aplicativos para dispositivos móveis, Android e IOS, onde permite os desenvolvedores usem Javascript para criar APP's para celulares.</p>
 </body>
+<style>
+    h1 {
+        color: blue;
+        font-size: 50px;
+    }
+
+    h2 {
+        color: blue;
+        font-size: 25;
+    }
+
+    span {
+        color: red;
+
+    }
+</style>
 </html>
