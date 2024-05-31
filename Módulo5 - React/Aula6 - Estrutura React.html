@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--     
+        - AULA 06 - ENTENDENDO A ESTRUTURA DO "REACT". 
+            - Explicando o arquivo "INDEX.HTML"
+
+                - Dentro da tag "BODY" vai ter uma "DIV" com um "ID" chamado "ROOT" e um "SCRIPT" chamando "MAIN.JSX"
+                - Exemplo de como a sintaxe vai ficar:
+
+                    <body>
+                    <div id="root"></div>
+                    <script type="nodule" src="/src/main.jsx"></script> 
+                    </body>
+                
+                - O SCRIPT está levando a um cara chamando MAIN.JSX, que se encontra dentro da pasta "SRC".
+                    - Dentro do Arquivo MAIN, vamos ter:
+
+                        - import React from 'react'
+
+                        - inport ReactDOM from 'react-dom/client'
+                        - Serve para manipular a "DOM ", arvoré de elemento do navegador (HTML).
+
+                    - Essas duas linhas de código são instaladas junto com REACT. Não vamos mexer nelas. Mas podemos o que significa cada um.
+
+                    - Logo em seguida tem a linha do código que a gente vai entender agora.
+                    
+                    - Sintaxe do código que vai ficar no arquivo:
+
+                        - ReactDOM.createRoot(document.getElementById('root')).render(
+                        <React.StrictMode>
+                            <app />
+                        </React.StrictMode>
+                        )
+
+                    - Nesta linha de código o "REACTDOM" está chamando o "HTML(index.html)" e dentro dele está procurando alguém com o "ID" com o nome "root" e, além disso esta colocando/injetando arquivo dentro desse elemento com "ID/root".
+
+                    - FLUXO DOIDO NÃO? 
+
+                    - Mas mesmo assim é bom trabalhar com o React, porque com aplicações muito grandes, você vai ter mais facilidade para trabalhar. Confia no Rodolfo Mori! kkkkk Ele falou que vai valer muito a pena no futuro.
+
+
+                - ARQUIVOS QUE VOCÊ VAI DELETAR DENTRO DA PASTA "SRC":
+                    - PASTA ASSETS.
+                    - INDEX.CSS.
+
+                    - DENTRO DO ARQUIVO "APP.JSX"..
+                    - VOCÊ VAI DELETAR TUDO, PORÉM VAI DEIXAR UMA:
+                        - FUNCTION APP(){
+
+                        RETURN {
+                            <DIV>
+                            HELLO REACT
+                            </DIV>
+                        }
+                        }
+
+                        EXPORT DEFAULT APP
+
+                    - DENTRO DO ARQUIVO "MAIN.JSX"..
+                    - VAI DELETAR A LINHA:
+                        - INPORT './INDEX.CSS'            
+    -->
+</body>
+</html>

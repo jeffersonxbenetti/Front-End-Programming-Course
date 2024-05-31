@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente React (JSX)</title>
+</head>
+<body>
+    <!--
+        - Aula 08 - JSX.
+            - Na grande maioria dos projetos os componente REACT vai ser uma "FUNÇÃO" como mostrado no arquivo "App.jsx".
+                - Sintaxe:
+                    - function App(){
+
+                        return (
+                            <div>
+                                Hello React
+                            </div>
+                        )
+                    }
+
+                    export default App
+            
+            - Pode ser até uma ARROW FUNCTION.
+            - Sempre tem que exportar o seu COMPONENTE para ficar visível em outros arquivos. E para exportar usa-se Sintaxe:
+                - export default (mais o nome do arquivo).
+
+            - Fazendo a exportação do arquivo, você vai poder em outro arquivo IMPORTAR o arquivo que você EXPORTOU. Por exemplo, no arquivo "main.jsx", onde o arquivo "app.jsx" estará sendo importado. Usa-se a Sintaxe:
+                - import App from './App'
+                - import (nome do arquivo) from './App'
+
+            - OBS: Para importar um arquivo na mesma pasta você usa o "ponto e barra", mas para importar uma bibliotéca só precisará do nome. Exemplo:
+                - import React from 'react'
+                - import (nome do arquivo) from 'react'
+
+            - Detalhe, os nossos COMPONENTES sempre devem começar com a letra MAIUSCULA.
+
+            - Para entendermos a SINTAXE do React, vamos ver como funciona.
+                - Ela sempre vai retornar código HTML.
+
+                -Exemplo:
+                    - function App(){
+                    (ENTRE A FUNCTION E O RETURN VOCÊ VAI ESCREVER CÓDIGO JAVASCRIPT)
+
+                        return (
+                            (DENTRO DO RETURN VOCÊ VAI ESCREVER CÓDIGO HTML.)
+                            <div>
+                                Hello React
+                            </div>
+                        )
+                    }
+
+                    export default App
+                    
+                    - TAMBÉM PODEMOS MISTURAR CÓDIGO HTML COM JAVASCRIPT:
+                        
+                        - function App(){
+                        
+                            const message = 'Oi, eu sou um componente React'
+
+                        return (
+                            
+                            <div>
+                                {message} //Usa-se os "Bigodinhos/Chaves" para adicionar um código javascript.//
+                            </div>
+                        )
+                    }
+
+                    export default App
+        
+        - Resumindo, A sintaxe JSX é poder misturar código HTML com código JAVASCRIPT.
+
+    -->
+</body>
+</html>
