@@ -24,7 +24,7 @@
   <br>
   <li><b>Cópia do Site da Netflix:</b> Uma recriação do layout da página inicial da Netflix.</li>
   <br>
-  <li><b>Cópia do Site do Instagram:</b> Uma recriação do layout da página inicial do Instagram.</li>
+  <li><b>Cópia do Site do Instagram:</b> Uma recriação do layout da página inicial do Instagram (em progresso).</li>
 </ol>
 <br>
 <br>
