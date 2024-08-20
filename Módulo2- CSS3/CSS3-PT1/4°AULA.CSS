@@ -1,0 +1,27 @@
+/*
+    - 4° AULA - SELETORES CSS:
+
+    - Um seletor CSS é a primeira parte de uma regra CSS. É um padrão de elementos e outros termos que informam ao navegador quais elementos HTML devem ser selecionados para que os valores de propriedade CSS dentro da regra sejam aplicados a eles.
+
+    - PODEMOS CHAMAR OS ELEMENTOS HTML NO CSS DA SEGUINTE FORMA:
+
+        - SELETORES PADROES.
+
+            - H1 - PARA OS TITULOS.
+            - P  - PARA OS PARÁGRAFOS.
+            - BUTTON - BOTOES.
+            - INPUT - INPUTS.
+            - IMG - IMAGENS.
+            - E ASSIM POR DIANTES.
+
+            - " * " - SELETOR QUE ESTILIZA TUDO NA PAGINA.
+
+            - ID - SELETOR QUE SERVE PARA IDEMTIFICAR APENAS UM ELEMENTO , OU SEJA, ELE É COMO UM CPF.
+
+                - PARA SELECIONAR UM ID NO CSS, USA-SE O (#) + O NOME DO ID.
+
+            - CLASS - SELETOR QUE SERVE PARA IDENTIFICAR MAIS DE UM ELEMENTO, COMO O CEP, QUE SERVE PARA TODOS QUE MORAM NA SUA RUA.
+
+                - PARA SELECIONAR UMA CLASS NO CSS, USA-SE O (.) + O NOME DA CLASS.
+
+*/

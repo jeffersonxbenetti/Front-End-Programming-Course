@@ -1,0 +1,18 @@
+/*
+    - 5° AULA - CSS, ESTILO EM CASCATA:
+
+    - O CÓDIGO SEMPRE VAI SER APLICADO DE CIMA PARA BAIXO.
+
+        - EXEMPLO:
+            - BUTTON {
+                BACKGROUND: RED;
+            }
+
+            - BUTTON {
+                BACKGROUND: BLUE;
+            }
+
+        - OLHANDO ESSE EXEMPLO, QUAL COR SERÁ O BOTAO? 
+            - R: O AZUL, POR O CSS LER O CÓDIGO DE CIMA PARA BAIXO O CÓDIGO QUE ESTÁ EM BAIXO PREVALECERÁ.    
+
+*/

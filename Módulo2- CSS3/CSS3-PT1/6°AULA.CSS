@@ -1,13 +1,12 @@
 /*
-                                                    CORES
+    - 6° AULA - CORES NO CSS:
 
+    - HEXADECIMAL => * RED * GREEN * BLUE
 
-        - HEXADECIMAL => * RED * GREEN * BLUE
+        - O código Hexadecimal para cores consiste em seis letras ou números precedidos do “#” e seus números significam: Os dois primeiros elementos representam a intensidade de vermelho; O terceiro e quarto elementos representam a intensidade de verde; Os dois últimos a intensidade de azul.
 
-            - O código Hexadecimal para cores consiste em seis letras ou números precedidos do “#” e seus números significam: Os dois primeiros elementos representam a intensidade de vermelho; O terceiro e quarto elementos representam a intensidade de verde; Os dois últimos a intensidade de azul.
-
-            - Decimal (10) => 1,2,3,4,5,6,7,8,9
-            - Hexadecimal (16) => 0,1,2,3,4,5,6,7,8,9,C,D,E,F.
+        - Decimal (10) => 1,2,3,4,5,6,7,8,9
+        - Hexadecimal (16) => 0,1,2,3,4,5,6,7,8,9,C,D,E,F.
 
 
         - RGB => * RED * GREEN * BLUE
@@ -17,8 +16,6 @@
         - RGBA => * RED * GREEN * BLUE * ALFA 
 
             - A função RGBA retorna uma cor com base nos componentes vermelho, verde e azul. A função também inclui um canal alfa para misturar cores de controles que estão em camadas na frente um do outro.
-
-
 
 */
 
