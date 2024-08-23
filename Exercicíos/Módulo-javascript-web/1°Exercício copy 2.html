@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1°Exercício</title>
+</head>
+<body>
+    <!-- Crie uma página HTML com um botão e um parágrafo. Escreva um programa que, ao clicar no botão, altere o texto do parágrafo para "Olá, mundo!" utilizando o método getElementById. -->
+
+    <p id="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias at quibusdam sunt doloribus architecto dignissimos corporis, in, commodi amet culpa nesciunt aspernatur. Fugiat voluptates aspernatur ipsum. Id sed rerum magnam.</p>
+
+    <button onclick="trocarTexto()">Alterar texto</button>
+</body>
+<script>
+
+    const text = document.getElementById('texto')
+
+    function trocarTexto(){
+        text.innerHTML = "Olá, mundo!"
+    }
+    
+</script>
+</html>
