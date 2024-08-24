@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3° Exercício</title>
+</head>
+<body>
+    <!-- Crie uma página HTML com um botão e um parágrafo. Escreva um programa que, ao clicar no botão, altere o texto do parágrafo para "Olá, mundo!" utilizando o método querySelector. -->
+
+    <button>Trocar o texto</button>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, numquam earum nostrum tempora vitae quibusdam maiores nemo in quaerat dolore sunt ipsa quo nisi perspiciatis suscipit aperiam fuga sint necessitatibus!</p>
+
+</body>
+<script>
+    const button = document.querySelector('button')
+
+    function trocarTexto(){
+        const texto = document.querySelector('p')
+
+        texto.innerHTML = 'Olá mundo!'
+    }
+
+    button.addEventListener('click', trocarTexto)
+</script>
+</html>

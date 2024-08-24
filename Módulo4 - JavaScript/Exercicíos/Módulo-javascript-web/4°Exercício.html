@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4° Exercício</title>
+</head>
+
+<body>
+    <!-- Crie uma página HTML com várias divs com a classe "item". Escreva um programa que altere o texto de todas as divs para "Item alterado" utilizando o método querySelectorAll. -->
+
+    <div class="item">Olá, somos as div's</div>
+    <div class="item">Olá, somos as div's</div>
+    <div class="item">Olá, somos as div's</div>
+    <div class="item">Olá, somos as div's</div>
+
+    <style>
+        .item {
+            border: 2px solid #000000;
+            border-radius: 10px;
+            width: 150px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+    </style>
+
+</body>
+<script>
+    const divs = document.querySelectorAll('.item')
+
+    for (let i = 0; i < divs.length; i++) {
+        setTimeout(() => {
+            divs[i].innerHTML = 'Item alterado'
+        }, 3000);
+    }
+
+</script>
+
+</html>
