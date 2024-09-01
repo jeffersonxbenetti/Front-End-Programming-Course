@@ -1,0 +1,37 @@
+<!--
+    - AULA 15 - GIT MERGE:
+
+        - O comando "**git merge**" é usado para mesclar as alterações de uma **branch** em outra **branch** no **Git**. Geralmente, você usa o "**git merge**" para incorporar as alterações de uma **branch** de desenvolvimento (**geralmente uma feature branch**) em uma **branch** principal (como a **branch** "**main**" ou "**master**"). Aqui estão os passos básicos para usar o "**git merge**":
+
+        - **Certifique-se de estar na branch de destino:**
+
+            - 1. Antes de usar o comando "**git merge**", verifique se você está na **branch** de destino (**a branch em que você deseja incorporar as alterações**). Você pode mudar para a branch de destino usando o comando "**git checkout <branch_destino>**".
+
+                - git checkout main  # Por exemplo, mude para a branch "main"
+
+        - **Execute o comando "git merge":**
+        
+            - 1. Use o comando "**git merge**" seguido pelo nome da **branch** que você deseja mesclar na **branch** de destino. Por exemplo, para **mesclar** as alterações da **branch** "**feature/nova-funcionalidade**" na **branch** "**main**", você usaria o seguinte comando:
+
+                - git merge feature/nova-funcionalidade
+        
+            - Isso fará com que o **Git** tente combinar as alterações da **branch** "**feature/nova-funcionalidade**" na **branch** "**main**".
+
+        - **Resolva conflitos (se necessário):**
+
+            - Se houver conflitos entre as alterações na **branch** de destino e na **branch** que você está **mesclando**, o **Git** informará que ocorreu um conflito e pausará o processo de **mesclagem**. Você precisará resolver esses conflitos manualmente, editando os arquivos conflitantes para escolher as partes apropriadas de cada conjunto de alterações.
+
+            - Depois de resolver os conflitos, adicione os arquivos modificados à **área de stage** usando "**git add**" e, em seguida, continue a **mesclagem** usando "**git commit**" para criar um novo **commit** de **mesclagem**.
+
+        - **Crie um commit de mesclagem (se necessário):**
+
+            - Se houver conflitos a serem resolvidos, após resolvê-los, você deve criar um novo **commit** de **mesclagem** usando "**git commit**". O **Git** automaticamente adicionará uma mensagem de **commit** padrão descrevendo a **mesclagem**.
+
+        - **Finalize a mesclagem:**
+
+            - Após resolver os conflitos (**se houver**) e criar o **commit** de **mesclagem**, a **mesclagem** estará concluída.
+
+            - Agora, a **branch** de destino (por exemplo, "**main**") conterá as alterações da **branch** de **origem** (por exemplo, "**feature/nova-funcionalidade**").
+
+        - O "**git merge**" é uma operação fundamental para a gestão de **branches** e permite que você incorpore o trabalho de diferentes ramos de desenvolvimento em uma única linha de código. No entanto, lembre-se de que é importante realizar testes adequados após a **mesclagem** para garantir que as alterações não introduziram problemas no código.
+-->

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/Css/Styles.css">
+    <title>Convert Currency</title>
+</head>
+
+<body>
+    <!-- - 23° AULA - "DESAFIO": 
+
+    - COLOCAR OUTROS PARES DE MOEDAS NO PROJETO. -->
+    <main>
+        <h1>Convert Currency</h1>
+
+        <section>
+            <h3>Choose Currency</h3>
+
+            <div class="box-one">
+
+                <div>
+                    <label>
+                        <img class="from-img" src="./assets/img/BRL.png" alt="">
+                        <select class="select-from">
+                            <option>BRL</option>
+                            <!-- <option>USD</option>
+                            <option>EUR</option>
+                            <option>GBP</option>
+                            <option>BTC</option> -->
+                        </select>
+                    </label>
+                </div>
+
+                <div class="middle-box">                    
+                        <img class="button-img spinner-animation" src="./assets/img/button.png" alt="Botão">                    
+                </div>
+
+                <div>
+                    <label>
+                        <img class="to-img" src="./assets/img/USD.png" alt="">
+                        <select class="select-to">
+                            <option value="dolar">UDS</option>
+                            <!-- <option value="real">BRL</option> -->
+                            <option value="euro">EUR</option>
+                            <option value="libra">GBP</option>
+                            <option value="bitcoin">BTC</option>
+                        </select>
+                    </label>
+                </div>
+
+            </div>
+
+            <div class="box-two">
+                <div class="currency-box">
+                    <p class="currency-name-from">Real Brasileiro</p>
+                    <p class="currency-value-from">R$ 0,00</p>
+                </div>
+
+                <div class="currency-box">
+                    <p class="currency-name-to">Dólar Americano</p>
+                    <p class="currency-value-to">$ 0.00</p>
+                </div>
+            </div>
+
+        </section>
+        <input class="input-value" type="number" placeholder="R$ 1.000,00">
+
+    </main>
+</body>
+<script src="./assets/Js/Script.js"></script>
+
+</html>
