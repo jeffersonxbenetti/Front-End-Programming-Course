@@ -1,7 +1,7 @@
 /*
-                                        - Switch case
+    - 11° AULA - SWITCH CASE:
 
-    Switch case -> Controlador de fluxo.
+        - Switch case -> Controlador de fluxo.
 */
 
 const temperature = 30

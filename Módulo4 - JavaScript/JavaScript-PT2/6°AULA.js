@@ -1,11 +1,11 @@
 /*
-                                    - Operadores de Comparação PT-2 
+    - 6° AULA - OPERADORES DE COMPARAÇÃO PARTE 2: 
 
-    > -> Maior.
-    < -> Menor.
+        > -> Maior.
+        < -> Menor.
 
-    >= -> Maior ou Igual.
-    <= -> Menor ou Igual.
+        >= -> Maior ou Igual.
+        <= -> Menor ou Igual.
 
 */
 // Exemplo de Menor(<), ou Maior(>).

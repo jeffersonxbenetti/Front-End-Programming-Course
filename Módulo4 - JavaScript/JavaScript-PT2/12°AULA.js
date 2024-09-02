@@ -1,8 +1,8 @@
 /*
-                                    - SetTimeout & SetInterval.
+    - 12° AULA - SetTimeout & SetInterval:
                                     
-    setTimeout -> Executa uma vez.
-    setInterval -> Executa infinitas vezes.
+        - setTimeout -> Executa uma vez.
+        - setInterval -> Executa infinitas vezes.
 
  */
 

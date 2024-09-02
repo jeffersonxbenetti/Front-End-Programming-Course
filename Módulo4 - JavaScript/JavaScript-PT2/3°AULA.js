@@ -1,12 +1,14 @@
-/*                                     - Operadores Aritméticos 
-    + -> Adição.
-    - -> Subtração.
-    / -> Divisão.
-    * -> Multiplicação.
-    % -> Resto.
-    ++ -> Incremento.
-    -- -> Decremento.
-    ** -> Exponencial.
+/*  
+    - 3° AULA - OPERADORES ARITMÉTICOS:
+
+        + -> Adição.
+        - -> Subtração.
+        / -> Divisão.
+        * -> Multiplicação.
+        % -> Resto.
+        ++ -> Incremento.
+        -- -> Decremento.
+        ** -> Exponencial.
 
 */
 

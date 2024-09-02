@@ -1,19 +1,19 @@
 /*
-                                        - Operadores Lógicos
+    - 7° AULA - OPERADORES LÓGICOS:
 
-    && --> E --> Pessoa exigente / Obediente.
-        true && true = true
-        true && false = false
-        false && false = false
+        && --> E --> Pessoa exigente / Obediente.
+            true && true = true
+            true && false = false
+            false && false = false
 
-    || --> Ou --> Tanto faz / Filho espertinho.
-        true || true = true
-        true || false = true
-        false || false = false
+        || --> Ou --> Tanto faz / Filho espertinho.
+            true || true = true
+            true || false = true
+            false || false = false
 
-    ! --> Negação / Filho rebelde. / Inverte o valor.
-        !true = false
-        !false = true
+        ! --> Negação / Filho rebelde. / Inverte o valor.
+            !true = false
+            !false = true
 
 */
 

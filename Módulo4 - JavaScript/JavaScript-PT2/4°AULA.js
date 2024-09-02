@@ -1,12 +1,12 @@
 /*
-                                        - Operadores de Atribuição.
+    - 4° AULA - OPERADORES DE ATRIBUIÇÃO:
 
-    = -> Atribuição.
-    += -> Adição.
-    -+ -> Subtração.
-    /+ -> Divisão.
-    *= -> Multiplicação.
-    %= -> Resto.
+        = -> Atribuição.
+        += -> Adição.
+        -+ -> Subtração.
+        /+ -> Divisão.
+        *= -> Multiplicação.
+        %= -> Resto.
 
 */
 

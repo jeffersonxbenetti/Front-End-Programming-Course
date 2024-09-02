@@ -1,8 +1,8 @@
 /*
-                                    - Operadors type of e delete.
+    - 8° AULA - OPERADORES "TYPE OF" E "DELETE":
 
-    typeof -> Tipo de dado.
-    delete -> Deleta. 
+        - TYPE OF -> Tipo de dado.
+        - DELETE -> Deleta. 
 */
 
 // Exemplo de "type of", se o elemento é um objeto, number ou ate um string.

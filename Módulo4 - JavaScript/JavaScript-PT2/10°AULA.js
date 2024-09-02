@@ -1,11 +1,11 @@
 /*
-                                            - Operador ternário
+    - 10° AULA - OPERADORES TERNÁRIOS "IF" "ELSE":
 
-    Forma de economizar código usando o if else.
+    - Forma de economizar código usando o if else.
 
-        ? --> if (SE)
-        : --> else (SE NÃO)
-        && (if sem else), caso queira usar sem o else.
+        - ? --> IF (SE)
+        - : --> ELSE (SE NÃO)
+        - && (IF SEM ELSE), caso queira usar sem o else.
 
 */
 

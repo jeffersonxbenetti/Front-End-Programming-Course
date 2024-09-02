@@ -1,9 +1,9 @@
 /*
-                                                - Else if
+        - 9° AULA - "ELSE" "IF":
 
-        if -> (SE)
-        Else -> (SE NÃO)
-        Else if -> Coloca mais de uma OPÇÃO quantas vezes você quiser.
+            - IF -> (SE)
+            - ELSE -> (SE NÃO)
+            - ELSE IF -> Coloca mais de uma OPÇÃO quantas vezes você quiser.
 
 */
 

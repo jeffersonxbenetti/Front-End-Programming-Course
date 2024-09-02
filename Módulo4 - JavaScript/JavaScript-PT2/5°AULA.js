@@ -1,11 +1,11 @@
 /**
-                                        - Operadores de Comparação.
+   - 5° AULA - OPERADORES DE COMPARAÇÃO:
 
-    == -> Igual // Compara o VALOR, mas NÃO o TIPO.
-    === -> Totalmente // Compara o VALOR e o TIPO.
+      == -> Igual // Compara o VALOR, mas NÃO o TIPO.
+      === -> Totalmente // Compara o VALOR e o TIPO.
 
-    != -> Diferente // Ele compara o VALOR, mas NÃO o TIPO.
-    !== -> Totalmente diferente // Compara o VALOR e o TIPO.
+      != -> Diferente // Ele compara o VALOR, mas NÃO o TIPO.
+      !== -> Totalmente diferente // Compara o VALOR e o TIPO.
 
  */
 
