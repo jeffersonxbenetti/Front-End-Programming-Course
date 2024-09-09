@@ -1,5 +1,7 @@
 /*
-    - Existem DOIS tipos de function(funções).
+    - 8° AULA - FUNCTION COM RETORNO:
+    
+    -Existem DOIS tipos de function(funções).
         - Função VOID(VAZIA), que não retorna nada.
         - Função RETURN, que retorna o valor para quem à chama.
 

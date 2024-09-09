@@ -1,5 +1,5 @@
 /*
-    - Function / Funções
+    - 10° AULA - ARROW FUNCTION:
     
         - Function padrão:
             - Sintaxe de uma função padrão.

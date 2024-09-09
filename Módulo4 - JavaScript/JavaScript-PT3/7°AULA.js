@@ -1,5 +1,5 @@
 /* 
-    - Function/funções => 
+    - 7° AULA - FUNCTION'S / FUNÇÕES: 
         - É um trecho de código que só é execultado quando é chamado ou solicitado!
 
         - Podem ser chamadas mais de uma vez.

@@ -1,6 +1,6 @@
 /*
-    - Enum
-
+    - 15° AULA - ENUM:
+    
         - Enum é um trecho de código usado corrigir, trocar valor em código.
 
             - EX: Você tem um código que vem trabalhando as meses,  e no decorrer no processo você se depara que acabou escrevendo uma palavra errada... o que você faria para corregir? Normalmente, você corrigiria a palavra e sairia colocando em todos campos que ela é usada, certo? Com o enum, é mais pratico, pois você nao precisa ficar copiando e colocando em todos os campor, só nos campos que são necessarios.

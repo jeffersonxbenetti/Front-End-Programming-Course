@@ -1,20 +1,20 @@
 /* 
-    - For in -> Estrutura de Repetição(Loop)
+    - 4° AULA - FOR IN: Estrutura de Repetição(Loop)
         - Consegue pegar os objetos: Name: , Age:, Street:.
 
-    A sintaxe do for ind:
+    - A sintaxe do for ind:
         - for (const key in object) {
             - Pode optar por deixar o "key", ou colocar qualquer nome.
             - Você coloca a variavel que quer explorar no lugar do "object"
         }
 
-    Caso queira acessar o objeto mais o valor ... 
+    - Caso queira acessar o objeto mais o valor ... 
         - Temos DUAS formas de fazer isso.
-            Por exemplo:
+            - Por exemplo:
                 - const users = {name:"Jefferson", age:30, street: "Rua São Sebatião"}
 
-                1 -> console.log(users.name) = Jefferson
-                2 -> console.log(users["name"]) = Jefferson
+                - 1 -> console.log(users.name) = Jefferson
+                - 2 -> console.log(users["name"]) = Jefferson
 
                 - Resultado, os dois mostram a mesma coisa..
 */

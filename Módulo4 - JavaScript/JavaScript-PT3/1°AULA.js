@@ -1,15 +1,15 @@
 /*
-                                                - For
+    - 1° AULA - FOR:
 
-    1) INICÍALIZAÇÃO - Criar uma variável e colocar um valor inicial pra ela.
+    - 1) INICÍALIZAÇÃO - Criar uma variável e colocar um valor inicial pra ela.
             - Pode colocar o valor = 0.
-    2) CONDIÇÃO - Enquanto for true, o laço continuará iterando.
+    - 2) CONDIÇÃO - Enquanto for true, o laço continuará iterando.
             - Ele irá verificar antes de cada iteração.
-    3) EXPRESSÃO FINAL - O que irá ocorrer a cada vez que o nosso laço dar uma volta.
+    - 3) EXPRESSÃO FINAL - O que irá ocorrer a cada vez que o nosso laço dar uma volta.
 
-    for ([inicialização]; [condição]; [expressão final]){
+    - for ([inicialização]; [condição]; [expressão final]){
 
-        SEU CÓDIGO AQUI DENTRO..
+        - SEU CÓDIGO AQUI DENTRO..
     }
 
 

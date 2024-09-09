@@ -1,5 +1,5 @@
 /*
-    - ForEach -> Ele fornece três informações.
+    - 6° AULA - FOREACH: Ele fornece três informações.
         - item -> É cada elemento do array.
         - index -> Posição que o item está.
         - array -> Mostra o array completo.

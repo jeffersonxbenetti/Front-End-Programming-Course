@@ -1,5 +1,5 @@
 /*
-    - Function Anônimas.
+    - 11° AULA - FUNCTION'S ANÔNIMAS:
         - São funções que não tem NOME.
 
         - Ex: 
