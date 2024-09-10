@@ -1,15 +1,15 @@
 /*
-                                                                    - Filter
+    - 4° AULA - FILTER:
 
-        - Serve para filtrar um array. Ele passará por todos os valores do array e você decidirá quais valores vão para o seu novo array, e quais vão ser descartados.
+    - Serve para filtrar um array. Ele passará por todos os valores do array e você decidirá quais valores vão para o seu novo array, e quais vão ser descartados.
 
-        - Aceita três valores.
-            - item do array.
-            - index.
-            - array completo.
+    - Aceita três valores.
+        - item do array.
+        - index.
+        - array completo.
 
-        - return true -> Item passa para o novo array.
-        - return false -> Item não passa para o novo array.
+    - return true -> Item passa para o novo array.
+    - return false -> Item não passa para o novo array.
 */
 
 // Exemplo pratico 1.

@@ -1,5 +1,5 @@
 /*
-                                                                - Map, Reduce e Filter.
+    - 5° AULA - MAP, REDUCE E FILTER:
 
 */
 

@@ -1,14 +1,14 @@
 /*
-                                                                        - Reduce
+    - 3° AULA - REDUCE:
 
-        - O medóto REDUCE serve para "reduzir" um array a apenas um item. Como assim?
-            - Ele vai passar item por item no array e no final vais restar apenas um valor.
+    - O medóto REDUCE serve para "reduzir" um array a apenas um item. Como assim?
+        - Ele vai passar item por item no array e no final vais restar apenas um valor.
 
-        - Aceita 4 parâmetros.
-            - Acumulador.
-            - Valor atual.
-            - index.
-            - Array completo. 
+    - Aceita 4 parâmetros.
+        - Acumulador.
+        - Valor atual.
+        - index.
+        - Array completo. 
 */
 
 // Exemplo pratico 1.

@@ -1,6 +1,6 @@
 /*
-                                            - Metodos Array.
-
+        - 6° AULA - METODOS "ARRAY":
+        
         - Array's.
 
                 - push -> Adiciona mais um item ao array.
