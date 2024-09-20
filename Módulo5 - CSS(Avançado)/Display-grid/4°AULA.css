@@ -1,0 +1,13 @@
+/*
+    - 4° AULA -  GRID AUTO ROWS:
+
+    - GRID-AUTO-ROWS, também defini o tamanho da linha, mas de uma forma automatica. Quando você tiver um site que fica saindo e adicionando informações, ele é uma boa opção para deixar. Serve muito para projetos responsivos.
+        - grid-auto-rows: 1fr;
+
+    - Para deixar ele como responsivo, é bom utilizar o min e o max, por exemplo:
+        - grid-auto-rows: minmax(500px, auto);
+
+    - Serve para quando um container(exemplo) crescer as outras crescerem também. Para sempre manter um padrão. 
+        - Obs: Quando for usar, sempre deixar sem um valor de height.
+        
+*/

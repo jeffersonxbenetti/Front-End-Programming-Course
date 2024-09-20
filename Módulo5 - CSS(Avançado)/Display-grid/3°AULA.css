@@ -1,10 +1,10 @@
 /*
-    - GRID GAP.
+    - 3° AULA - GRID GAP:
 
-        - Dentro do GRID GAP existem o GRID-ROW-GAP e o GRID-COLUMN-GAP.
-            - GRID-ROW-GAP:
+    - Dentro do GRID GAP existem o GRID-ROW-GAP e o GRID-COLUMN-GAP.
+        - GRID-ROW-GAP:
                 - Defini a distância das linhas para outra.
-            - GRID-COLUMN-GAP:
+        - GRID-COLUMN-GAP:
                 - Defini a distância das colunas para outra.
     
     - Temos o GRID-GAP que aplica quanto pra linha quanto pra coluna. Você pode fazer um atalho com ele para usar nas duas, por exemplo: 

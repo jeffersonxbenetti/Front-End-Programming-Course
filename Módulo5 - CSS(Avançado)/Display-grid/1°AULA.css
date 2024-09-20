@@ -1,0 +1,93 @@
+/*
+    - 1° AULA - DISPLAY GRID:
+
+    - Por padrão, se eu nao coloco nada no item, como WIDTH ou HEIGHT, o display grid faz o item ocupar todo o espaço porque o item por padrão DISPLAY BLOCK.
+
+    - Display template columns serve para criar colunas.
+
+        - Podemos usar PIXEL:
+            - grid-template-columns: 100px 100px 100px;
+                - Usada para definir o tamanho da coluna.
+
+        - Podemos usar PORCENTAGEM:
+            - grid-template-columns: 20% 20% 20%;
+                - Usado para definir o tamanho pelo tamanho da tela.
+            
+        - Podemos usar FR(fração):
+            - grid-template-columns: 1fr 1fr 1fr;
+                - Usado para definir o tamanho das três colunas igual.
+
+        - Podemos usar REPEAT:
+            - grid-template-columns: repeat(3, 1fr)
+                - Usado para definir em pouco código o tamanho das três colunas.
+
+        - Podemos usar MINMAX:
+            - grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+                - Usado para colocar o tamanho min e max da coluna.
+
+        - Podemos também deixar no AUTOMATICO:
+            - grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+                 - Usado para automatizar o tamanho das colunas.
+                    
+*/
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+
+    /*grid-template-columns: 100px 100px 100px;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-columns: minmax(200px, 1fr) 1fr 1fr;*/
+    /*grid-template-columns: repeat(auto-fit, minmax(100px, auto));*/
+}
+
+.space {
+    /*height: 300px;
+    width: 300px;*/
+    color: #fff;
+    font-size: 38px;
+}
+
+.one {
+    background: #333453;
+}
+
+.two {
+    background: #259b11;
+}
+
+.tree {
+    background: #800534;
+}
+
+.four {
+    background: #0c8f9b;
+}
+
+.five {
+    background: #ff0a0a;
+}
+
+.six {
+    background: #7c6161;
+}
+
+.seven {
+    background: #0f0cd4;
+}
+
+.eight {
+    background-color: #b61e95;
+}
+
+.nine {
+    background: #a7b80d;
+}
